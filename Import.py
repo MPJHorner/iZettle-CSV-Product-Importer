@@ -11,9 +11,9 @@ class iZettle():
 
     def setUp(self):
         #Configure these
-        self.username = "email@domain.com"                #Your iZettle Admin Email Address (Admin require to add products)
-        self.password = "Password123"                 #Your iZettle Password
-        self.csvfilename = "dummy.csv"               #Your csv file containing products
+        self.username = "email@domain.com"          #Your iZettle Admin Email Address (Admin require to add products)
+        self.password = "Password123"               #Your iZettle Password
+        self.csvfilename = "dummy.csv"              #Your csv file containing products
         
         #self.driver = webdriver.Firefox()              #Use for debugging
         self.driver = webdriver.PhantomJS()
